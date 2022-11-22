@@ -1,0 +1,24 @@
+//object
+//We are taking person as a object and describing about him
+//for object curly bracket and for array square bracket
+const person={name:'ajay',age:'20',profession:'Engineer'}
+console.log(person.name)
+console.log(person.age)
+console.log(person['age'])
+//Dot notation (person.age)<=>(person['age']) we can take both
+//console.log(person[profession])
+person.phone='4578-7854-9587'
+console.log(person)
+//const introduction=(name,shirt)<=>function introduction(name,shirt)
+const introduction=(name,shirt)=>{
+  const person={name :name,
+                shirt: shirt}
+  //Don't forget to give (``) no double or single semi colon
+  const intro= `Hi my name is  ${person.name} and my t-shirt color is ${person.shirt} `
+  return intro
+}
+//We also do this at the place of console.log(introduction())
+ name=prompt("name")
+ shirt=prompt("shirt")
+console.log(introduction(name,shirt))
+

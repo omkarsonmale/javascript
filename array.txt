@@ -1,0 +1,11 @@
+//Taking array in js
+const groceries=["apple","mango","banana"]
+console.log(groceries[1])
+groceries.push("chiku")
+for(i=0;i<4;i++){
+  console.log(groceries[i])
+}
+//if we want to print onle few range of array for that we use slice
+console.log(groceries.slice(0,2))
+//for printing the  size of array we are using **length**
+console.log(groceries.length)
