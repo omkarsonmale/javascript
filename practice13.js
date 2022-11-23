@@ -26,3 +26,13 @@ console.log(howmanyletters())
 //     console.log(howmantlettes())
     
 // }
+
+
+//=====================================//revise//===========================================
+const groceries= {name:'omkar',lastname:'sonmale'}
+console.log(groceries.name)
+colour=['black ','blue','red','white']
+
+for(i=0;i<4;i++){
+    console.log(colour[i])
+}
