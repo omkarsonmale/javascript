@@ -25,6 +25,7 @@ function  add(a,b){
  ////======================filter()======================/////////
 //In filter array we filter out some no which fixes to our condition
 const filter=(numbers,greaterthan) => {
+
   let result=[]
   for(const number of numbers){
   if(number>greaterthan){
@@ -32,9 +33,28 @@ const filter=(numbers,greaterthan) => {
 
   }
 }
+
   return result
+  
 
 }
-console.log(filter([1,2,3,4,5],3))
+console.log(filter([1,45,47,58],10))
 
 //another type of for loop in javascript
+//*******for(const number of numbers)***********
+const newfilter=(numbers,lessthan) => {
+
+   let result=[]
+   for(const number of numbers){
+   if(number<lessthan){
+    result.push(number)
+ 
+   }
+ }
+ 
+   return result
+   
+ 
+ }
+ console.log(newfilter([1,45,47,58],10))
+
