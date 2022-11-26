@@ -56,5 +56,17 @@ const newfilter=(numbers,lessthan) => {
    
  
  }
- console.log(newfilter([1,45,47,58],10))
 
+
+ const prompt = require("prompt-sync")();
+ ncount=prompt('Enter no of elements ')
+  nobank=[]
+ for( i=0;i<ncount;i++){
+      nobank.push(i)
+ }
+ for(i=0;i<ncount;i++){
+ console.log(nobank[i])
+ }
+ for( i=0;i<newfilter;i++){
+  console.log("good night");
+ }
