@@ -63,7 +63,7 @@ console.log(groceries[i])
 console.log(groceries[1])
 //for adding more elements in array weuse**push()**
 groceries.push('couconut')
-//slice function is used to pint some setof part form array
+//slice function is used to point some setof part form array
 //**main point is not including 2 */
 console.log(groceries.slice(0,2)) 
 //for pintingindex of element in array
